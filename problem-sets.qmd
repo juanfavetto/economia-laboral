@@ -1,5 +1,5 @@
 ---
-title: "Problem Sets"
+title: "Problem Sets 2026"
 listing:
   id: tps
   contents: materiales.yml

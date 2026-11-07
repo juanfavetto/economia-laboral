@@ -1,16 +1,15 @@
 ---
 title: "Economía Laboral"
-subtitle: "Licenciatura en Economía · Universidad del CEMA · Primavera de 2026"
+subtitle: "Licenciatura en Economía · Universidad del CEMA"
 ---
 
-Acá encontrás las slides y los trabajos prácticos del curso, en orden y listos para descargar.
-
-- [Slides](slides.qmd), organizadas en dos partes: datos observacionales y economía experimental.
+- [Slides clases prácticas](slides.qmd), organizadas en dos partes: datos observacionales y economía experimental.
 - [Problem Sets](problem-sets.qmd), con las consignas de cada trabajo práctico.
 
 ## Docentes
 
-| Rol | Nombre | Contacto |
-|:----|:-------|:---------|
-| Titular | Julio J. Elías | [je49@ucema.edu.ar](mailto:je49@ucema.edu.ar) |
-| Ayudante | Juan M. Favetto | [jmfavetto24@ucema.edu.ar](mailto:jmfavetto24@ucema.edu.ar) |
+**Julio J. Elías**, profesor titular\
+[je49@ucema.edu.ar](mailto:je49@ucema.edu.ar)
+
+**Juan M. Favetto**, profesor ayudante\
+[jmfavetto24@ucema.edu.ar](mailto:jmfavetto24@ucema.edu.ar)
