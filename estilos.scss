@@ -44,16 +44,8 @@ h2 {
   margin-top: 2rem;
 }
 
-.inicio #title-block-header {
-  text-align: center;
-}
-
-.docentes {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin: 1.5rem 0 2rem;
-  text-align: center;
+table {
+  width: 100%;
 }
 
 .materiales {
@@ -102,9 +94,5 @@ h2 {
 
   .numero {
     grid-column: 1 / -1;
-  }
-
-  .docentes {
-    grid-template-columns: minmax(0, 1fr);
   }
 }

@@ -1,24 +1,12 @@
 ---
 title: "Economía Laboral"
 subtitle: "Licenciatura en Economía · Universidad del CEMA"
-body-classes: inicio
 ---
 
-::: {.docentes}
-
-::: {.docente}
-**Julio J. Elías**\
-Profesor titular\
-[je49@ucema.edu.ar](mailto:je49@ucema.edu.ar)
-:::
-
-::: {.docente}
-**Juan M. Favetto**\
-Profesor ayudante\
-[jmfavetto24@ucema.edu.ar](mailto:jmfavetto24@ucema.edu.ar)
-:::
-
-:::
+|  |  |  |
+|:--|:--|:--|
+| Titular | Julio J. Elías | [je49@ucema.edu.ar](mailto:je49@ucema.edu.ar) |
+| Ayudante | Juan M. Favetto | [jmfavetto24@ucema.edu.ar](mailto:jmfavetto24@ucema.edu.ar) |
 
 - [Slides clases prácticas](slides.qmd), (2026).
 - [Problem Sets](problem-sets.qmd)
