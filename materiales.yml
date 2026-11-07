@@ -10,32 +10,33 @@
 #   archivo: ruta dentro del repo. Si falta, se muestra "Próximamente".
 #   fuente:  ruta del original dentro de la carpeta LABOR
 #   formato: opcional. Texto del link cuando no es PDF.
+#   nota:    opcional. Reemplaza a "Próximamente" en una entrada sin archivo.
 
 # Slides ---------------------------------------------------------------
 
 - tipo: slides
-  bloque: Causalidad y selección
+  bloque: "Parte I: Datos observacionales"
   numero: Clase 1
   titulo: Selección, asignación aleatoria y validez
   archivo: archivos/slides/clase-01.pdf
   fuente: Clase 1 - Seleccion Asignacion Aleatoria y Validez/Clase1.pdf
 
 - tipo: slides
-  bloque: Causalidad y selección
+  bloque: "Parte I: Datos observacionales"
   numero: Clase 2
   titulo: DAGs y sesgos de collider
   archivo: archivos/slides/clase-02.pdf
   fuente: Clase 2 - DAGs y Sesgos de Collider/Clase2.pdf
 
 - tipo: slides
-  bloque: Causalidad y selección
+  bloque: "Parte I: Datos observacionales"
   numero: Clase 3
   titulo: Selección en observables, matching y regresión
   archivo: archivos/slides/clase-03.pdf
   fuente: Clase 3 - Selección en Observables Matching y Regresion/Regresion.pdf
 
 - tipo: slides
-  bloque: Causalidad y selección
+  bloque: "Parte I: Datos observacionales"
   numero: Clase 4
   titulo: Práctica de selección en observables
   archivo: archivos/slides/clase-04.ipynb
@@ -43,72 +44,73 @@
   formato: Notebook
 
 - tipo: slides
-  bloque: Variables instrumentales
+  bloque: "Parte I: Datos observacionales"
   numero: Clase 5
   titulo: Introducción a variables instrumentales
   archivo: archivos/slides/clase-05.pdf
   fuente: Clase 5 - Intro a Variables Instrumentales 3hs/IV.pdf
 
 - tipo: slides
-  bloque: Variables instrumentales
+  bloque: "Parte I: Datos observacionales"
   numero: Clase 6
   titulo: Sangre, sudor e integración intercultural
   archivo: archivos/slides/clase-06.pdf
   fuente: Clase 6 - Efectos del Servicio Militar (IV)/Sangre, sudor e integración intercultural.pdf
 
 - tipo: slides
-  bloque: Diferencias en diferencias
+  bloque: "Parte I: Datos observacionales"
   numero: Clase 7
   titulo: Diferencias en diferencias
   archivo: archivos/slides/clase-07.pdf
   fuente: Clase 7 - DiD clasico/Clase7DiD.pdf
 
 - tipo: slides
-  bloque: Diferencias en diferencias
-  numero: Clase 7 bis
+  bloque: "Parte I: Datos observacionales"
+  numero: Clase 8
   titulo: Repaso de métodos cuasi experimentales
+  nota: Sin slides
 
 - tipo: slides
-  bloque: Economía experimental
-  numero: Clase 8
+  bloque: "Parte II: Economía experimental"
+  numero: Clase 9
   titulo: Introducción a la economía experimental
-  archivo: archivos/slides/clase-08.pdf
+  archivo: archivos/slides/clase-09.pdf
   fuente: Clase 8 - Introducción a la Economía Experimental/Clase8.pdf
 
 - tipo: slides
-  bloque: Economía experimental
-  numero: Clase 9
+  bloque: "Parte II: Economía experimental"
+  numero: Clase 10
   titulo: Validez interna en experimentos
-  archivo: archivos/slides/clase-09.pdf
+  archivo: archivos/slides/clase-10.pdf
   fuente: Clase 9 - Validez Interna en Experimentos/Clase9.pdf
 
 - tipo: slides
-  bloque: Economía experimental
-  numero: Clase 10
+  bloque: "Parte II: Economía experimental"
+  numero: Clase 11
   titulo: Validez de la conclusión estadística
-  archivo: archivos/slides/clase-10.pdf
+  archivo: archivos/slides/clase-11.pdf
   fuente: Clase 10 - Validez de la Conclusión Estadística Medición/Clase10.pdf
 
 - tipo: slides
-  bloque: Economía experimental
-  numero: Clase 11
+  bloque: "Parte II: Economía experimental"
+  numero: Clase 12
   titulo: Diseño experimental óptimo
-  archivo: archivos/slides/clase-11.pdf
+  archivo: archivos/slides/clase-12.pdf
   fuente: Clase 11 - Diseño Experimental  Optimo 3hs/Clase11.pdf
 
 - tipo: slides
-  bloque: Moderación, mediación y cierre
-  numero: Clase 12
+  bloque: "Parte II: Economía experimental"
+  numero: Clase 13
   titulo: Heterogeneidad y moderación causal
 
 - tipo: slides
-  bloque: Moderación, mediación y cierre
-  numero: Clase 13
+  bloque: "Parte II: Economía experimental"
+  numero: Clase 14
   titulo: Mediación y mecanismos
 
 - tipo: slides
-  bloque: Moderación, mediación y cierre
-  numero: Clase 14
+  bloque: "Parte II: Economía experimental"
+  numero: Clase 15
   titulo: Repaso y construcción de conocimiento científico
 
 # Trabajos prácticos ---------------------------------------------------
