@@ -1,0 +1,16 @@
+---
+title: "Problem Sets"
+listing:
+  id: tps
+  contents: materiales.yml
+  template: _listado.ejs
+  include:
+    tipo: tp
+  sort: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 100
+---
+
+:::{#tps}
+:::

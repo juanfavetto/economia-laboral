@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - slides.qmd
+    - problem-sets.qmd
+  resources:
+    - archivos/**
+
+lang: es
+
+website:
+  title: "Economía Laboral"
+  search: false
+  navbar:
+    left:
+      - text: Inicio
+        href: index.qmd
+      - text: Slides
+        href: slides.qmd
+      - text: Problem Sets
+        href: problem-sets.qmd
+  page-footer:
+    center: "Universidad del CEMA · 2026"
+
+format:
+  html:
+    theme:
+      - default
+      - estilos.scss
+    toc: false
+    anchor-sections: false
+    page-layout: article

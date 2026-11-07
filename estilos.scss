@@ -1,0 +1,98 @@
+/*-- scss:defaults --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap");
+
+$borgona: #692b36;
+$gris: #595959;
+
+$primary: $borgona;
+$body-bg: #ffffff;
+$body-color: #111111;
+$link-color: $borgona;
+$font-family-sans-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-size-root: 18px;
+$navbar-bg: #ffffff;
+$navbar-fg: #111111;
+$navbar-hl: $borgona;
+$footer-bg: #ffffff;
+$footer-fg: $gris;
+
+/*-- scss:rules --*/
+
+.navbar {
+  border-bottom: 2px solid $borgona;
+}
+
+.navbar-brand,
+.navbar-title {
+  font-weight: 600;
+}
+
+h1.title {
+  font-weight: 600;
+}
+
+.subtitle {
+  color: $gris;
+}
+
+h2 {
+  border-bottom: none;
+  color: $borgona;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+}
+
+.materiales {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.material {
+  align-items: baseline;
+  border-top: 1px solid #dddddd;
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: 8rem minmax(0, 1fr) auto;
+  padding: 0.55rem 0;
+}
+
+.material p {
+  margin: 0;
+}
+
+.numero {
+  color: $gris;
+  font-size: 0.9rem;
+}
+
+.enlace {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.enlace:hover {
+  text-decoration: underline;
+}
+
+.pendiente {
+  color: $gris;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+@media (max-width: 575px) {
+  .material {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .numero {
+    grid-column: 1 / -1;
+  }
+}

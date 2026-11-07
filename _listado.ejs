@@ -1,0 +1,29 @@
+<%
+const bloques = [];
+for (const item of items) {
+  let bloque = bloques.find((b) => b.nombre === item.bloque);
+  if (!bloque) {
+    bloque = { nombre: item.bloque, items: [] };
+    bloques.push(bloque);
+  }
+  bloque.items.push(item);
+}
+%>
+<% for (const bloque of bloques) { %>
+<section class="bloque">
+  <h2><%= bloque.nombre %></h2>
+  <ul class="materiales">
+    <% for (const item of bloque.items) { %>
+    <li class="material">
+      <div class="numero"><%= item.numero %></div>
+      <div class="titulo"><%= item.titulo %></div>
+      <% if (item.archivo) { %>
+      <div class="accion"><a class="enlace" href="<%= item.archivo %>"<% if (item.formato) { %> download<% } %>><%= item.formato || 'PDF' %></a></div>
+      <% } else { %>
+      <div class="accion pendiente">Próximamente</div>
+      <% } %>
+    </li>
+    <% } %>
+  </ul>
+</section>
+<% } %>
