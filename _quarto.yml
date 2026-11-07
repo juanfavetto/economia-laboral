@@ -22,7 +22,7 @@ website:
       - text: Problem Sets
         href: problem-sets.qmd
   page-footer:
-    center: "Universidad del CEMA · 2026"
+    center: "Universidad del CEMA"
 
 format:
   html:
