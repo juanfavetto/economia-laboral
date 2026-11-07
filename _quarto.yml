@@ -17,7 +17,7 @@ website:
     left:
       - text: Inicio
         href: index.qmd
-      - text: Slides
+      - text: Slides clases prácticas
         href: slides.qmd
       - text: Problem Sets
         href: problem-sets.qmd

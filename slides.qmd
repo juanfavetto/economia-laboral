@@ -1,5 +1,5 @@
 ---
-title: "Slides 2026"
+title: "Slides clases prácticas 2026"
 listing:
   id: slides
   contents: materiales.yml

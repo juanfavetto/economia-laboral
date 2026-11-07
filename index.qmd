@@ -3,7 +3,7 @@ title: "Economía Laboral"
 subtitle: "Licenciatura en Economía · Universidad del CEMA"
 ---
 
-- [Slides](slides.qmd), organizadas en dos partes: datos observacionales y economía experimental.
+- [Slides clases prácticas](slides.qmd), organizadas en dos partes: datos observacionales y economía experimental.
 - [Problem Sets](problem-sets.qmd), con las consignas de cada trabajo práctico.
 
 ## Docentes
