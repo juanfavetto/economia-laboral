@@ -10,6 +10,7 @@
 #   archivo: ruta dentro del repo. Si falta, se muestra "Próximamente".
 #   fuente:  ruta del original dentro de la carpeta LABOR
 #   formato: opcional. Texto del link cuando no es PDF.
+#   nota:    opcional. Reemplaza a "Próximamente" en una entrada sin archivo.
 
 # Slides ---------------------------------------------------------------
 
@@ -65,50 +66,51 @@
 
 - tipo: slides
   bloque: Diferencias en diferencias
-  numero: Clase 7 bis
-  titulo: Repaso de métodos cuasi experimentales
-
-- tipo: slides
-  bloque: Economía experimental
   numero: Clase 8
-  titulo: Introducción a la economía experimental
-  archivo: archivos/slides/clase-08.pdf
-  fuente: Clase 8 - Introducción a la Economía Experimental/Clase8.pdf
+  titulo: Repaso de métodos cuasi experimentales
+  nota: Sin slides
 
 - tipo: slides
   bloque: Economía experimental
   numero: Clase 9
-  titulo: Validez interna en experimentos
+  titulo: Introducción a la economía experimental
   archivo: archivos/slides/clase-09.pdf
-  fuente: Clase 9 - Validez Interna en Experimentos/Clase9.pdf
+  fuente: Clase 8 - Introducción a la Economía Experimental/Clase8.pdf
 
 - tipo: slides
   bloque: Economía experimental
   numero: Clase 10
-  titulo: Validez de la conclusión estadística
+  titulo: Validez interna en experimentos
   archivo: archivos/slides/clase-10.pdf
-  fuente: Clase 10 - Validez de la Conclusión Estadística Medición/Clase10.pdf
+  fuente: Clase 9 - Validez Interna en Experimentos/Clase9.pdf
 
 - tipo: slides
   bloque: Economía experimental
   numero: Clase 11
-  titulo: Diseño experimental óptimo
+  titulo: Validez de la conclusión estadística
   archivo: archivos/slides/clase-11.pdf
+  fuente: Clase 10 - Validez de la Conclusión Estadística Medición/Clase10.pdf
+
+- tipo: slides
+  bloque: Economía experimental
+  numero: Clase 12
+  titulo: Diseño experimental óptimo
+  archivo: archivos/slides/clase-12.pdf
   fuente: Clase 11 - Diseño Experimental  Optimo 3hs/Clase11.pdf
 
 - tipo: slides
   bloque: Moderación, mediación y cierre
-  numero: Clase 12
+  numero: Clase 13
   titulo: Heterogeneidad y moderación causal
 
 - tipo: slides
   bloque: Moderación, mediación y cierre
-  numero: Clase 13
+  numero: Clase 14
   titulo: Mediación y mecanismos
 
 - tipo: slides
   bloque: Moderación, mediación y cierre
-  numero: Clase 14
+  numero: Clase 15
   titulo: Repaso y construcción de conocimiento científico
 
 # Trabajos prácticos ---------------------------------------------------

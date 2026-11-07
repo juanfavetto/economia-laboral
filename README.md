@@ -15,7 +15,7 @@ Sitio del curso con las slides y los trabajos prácticos. Está hecho con Quarto
      fuente: Clase 15 - Nombre/Clase15.pdf
    ```
 
-   `fuente` es la ruta del original dentro de la carpeta `LABOR`. Para una clase que todavía no tiene material, dejá la entrada sin `archivo` ni `fuente`. El sitio muestra "Próximamente".
+   `fuente` es la ruta del original dentro de la carpeta `LABOR`. Para una clase que todavía no tiene material, dejá la entrada sin `archivo` ni `fuente`. El sitio muestra "Próximamente". Si la clase no va a tener material, agregá `nota: Sin slides`.
 
 2. Copiá el archivo y controlá el listado.
 

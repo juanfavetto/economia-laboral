@@ -20,7 +20,7 @@ for (const item of items) {
       <% if (item.archivo) { %>
       <div class="accion"><a class="enlace" href="<%= item.archivo %>"<% if (item.formato) { %> download<% } %>><%= item.formato || 'PDF' %></a></div>
       <% } else { %>
-      <div class="accion pendiente">Próximamente</div>
+      <div class="accion pendiente"><%= item.nota || 'Próximamente' %></div>
       <% } %>
     </li>
     <% } %>
