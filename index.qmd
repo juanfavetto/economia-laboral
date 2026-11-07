@@ -19,5 +19,5 @@ Profesor ayudante\
 
 :::
 
-- [Slides clases prácticas](slides.qmd), organizadas en dos partes: datos observacionales y economía experimental.
-- [Problem Sets](problem-sets.qmd), con las consignas de cada trabajo práctico.
+- [Slides clases prácticas](slides.qmd), (2026).
+- [Problem Sets](problem-sets.qmd)
