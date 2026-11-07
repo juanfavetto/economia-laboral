@@ -95,4 +95,46 @@ table {
   .numero {
     grid-column: 1 / -1;
   }
+
+  .navbar-brand-container {
+    max-width: calc(100% - 70px);
+  }
+
+  .navbar-title {
+    font-size: 1.05rem;
+  }
+
+  table,
+  tbody,
+  tr,
+  td {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    border-top: 1px solid #dddddd;
+    padding: 0.6rem 0;
+  }
+
+  td,
+  .table > :not(caption) > * > * {
+    border: 0;
+    padding: 0;
+  }
+
+  td a {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar-brand-container {
+    max-width: calc(100% - 56px);
+  }
+
+  .navbar-title {
+    font-size: 0.95rem;
+  }
 }
