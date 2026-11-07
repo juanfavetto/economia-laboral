@@ -1,0 +1,15 @@
+_site/
+.quarto/
+__pycache__/
+*.pyc
+
+# Nunca van al repo
+*.tex
+*.dta
+*.Rdata
+*.RData
+*.do
+*.log
+
+/.quarto/
+**/*.quarto_ipynb
