@@ -6,10 +6,20 @@ subtitle: "Licenciatura en Economía · Universidad del CEMA"
 - [Slides clases prácticas](slides.qmd), organizadas en dos partes: datos observacionales y economía experimental.
 - [Problem Sets](problem-sets.qmd), con las consignas de cada trabajo práctico.
 
-## Docentes
+## Docentes {.text-center}
 
-**Julio J. Elías**, profesor titular\
+::: {.docentes}
+
+::: {.docente}
+**Julio J. Elías**\
+Profesor titular\
 [je49@ucema.edu.ar](mailto:je49@ucema.edu.ar)
+:::
 
-**Juan M. Favetto**, profesor ayudante\
+::: {.docente}
+**Juan M. Favetto**\
+Profesor ayudante\
 [jmfavetto24@ucema.edu.ar](mailto:jmfavetto24@ucema.edu.ar)
+:::
+
+:::
