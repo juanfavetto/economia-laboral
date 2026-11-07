@@ -22,7 +22,7 @@ website:
       - text: Problem Sets
         href: problem-sets.qmd
   page-footer:
-    center: "Universidad del CEMA"
+    center: "Economía Laboral · Universidad del CEMA"
 
 format:
   html:
