@@ -5,7 +5,7 @@ subtitle: "Licenciatura en Economía · Universidad del CEMA · Primavera de 202
 
 Acá encontrás las slides y los trabajos prácticos del curso, en orden y listos para descargar.
 
-- [Slides](slides.qmd), organizadas por bloque temático.
+- [Slides](slides.qmd), organizadas en dos partes: datos observacionales y economía experimental.
 - [Problem Sets](problem-sets.qmd), con las consignas de cada trabajo práctico.
 
 ## Docentes
